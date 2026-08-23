@@ -123,27 +123,28 @@ main > section:nth-child(even) {
     pointer-events: none;
 }
 
-.desktop-nav-toggle {
+.nav-cta {
     display: none;
-    min-width: 5.75rem;
+    align-items: center;
     justify-content: center;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    background: transparent;
-    color: #fff;
-    padding: 0.5rem 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: #fff;
+    color: #1d4ed8;
+    padding: 0.55rem 1.1rem;
     border-radius: 0.5rem;
+    font-weight: 700;
     cursor: pointer;
-    transition: background-color 0.25s ease;
+    text-decoration: none;
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        background-color 0.25s ease;
 }
 
-.desktop-nav-toggle:hover {
-    background: rgba(255, 255, 255, 0.1);
-}
-
-@media (min-width: 768px) {
-    .desktop-nav-toggle {
-        display: none !important;
-    }
+.nav-cta:hover {
+    background: #eff6ff;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
 }
 
 .menu-button,
@@ -483,6 +484,11 @@ main > section:nth-child(even) {
     color: #1d4ed8;
 }
 
+.edu-grid article > div:nth-child(2) span[data-status="on-hold"] {
+    background: #fffbeb;
+    color: #b45309;
+}
+
 .timeline {
     position: relative;
     display: grid;
@@ -675,6 +681,10 @@ main > section:nth-child(even) {
 
 .projects-grid .language-tag-cpp {
     color: #f34b7d;
+}
+
+.projects-grid .language-tag-typescript {
+    color: #3178c6;
 }
 
 .projects-grid article > div:last-child {
@@ -996,8 +1006,8 @@ footer {
         padding-right: 1.5rem;
     }
 
-    .desktop-nav-toggle {
-        display: none !important;
+    .nav-cta {
+        display: inline-flex !important;
     }
 
     .menu-button {

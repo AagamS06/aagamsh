@@ -14,8 +14,6 @@ automatically once the change reaches the `main` branch.
 | ------------------- | ---------------------------------------------------------- |
 | `rambot.jpg`        | RAMbot — the WSU RAM Robotics Club robot                    |
 | `robocup-ssl-1.jpg` | RoboCup SSL soccer robots on the field                     |
-| `robocup-ssl-2.jpg` | RoboCup SSL competition field (wider shot)                 |
-| `turtle-rabbit.jpg` | Turtle Rabbit 2025 RoboCup SSL team logo                   |
 
 ### Steps
 
