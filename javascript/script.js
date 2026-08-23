@@ -2,7 +2,6 @@ lucide.createIcons();
 
 const siteHeader = document.querySelector(".site-header");
 const desktopNav = document.querySelector(".desktop-links");
-const desktopNavToggle = document.querySelector(".desktop-nav-toggle");
 const menuButton = document.querySelector(".menu-button");
 const closeMenuButton = document.querySelector(".close-menu-button");
 const mobileMenu = document.querySelector(".mobile-menu");
@@ -69,15 +68,6 @@ if (copyEmailBtn) {
         } catch (err) {
             console.error("Failed to copy email:", err);
         }
-    });
-}
-
-if (desktopNavToggle && siteHeader) {
-    desktopNavToggle.addEventListener("click", () => {
-        const isCollapsed = siteHeader.dataset.collapsed === "true";
-        siteHeader.dataset.collapsed = String(!isCollapsed);
-        desktopNavToggle.textContent = isCollapsed ? "Hide Nav" : "Show Nav";
-        desktopNavToggle.setAttribute("aria-expanded", String(isCollapsed));
     });
 }
 

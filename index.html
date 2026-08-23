@@ -3,7 +3,80 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Aagam Shah | AIML Major Portfolio</title>
+        <title>Aagam Shah | Software Developer & AI/ML Engineer</title>
+        <meta
+            name="description"
+            content="Aagam Shah is a Sydney-based software developer and AI/ML engineer building autonomous robotics, computer vision, and full-stack web projects. Explore selected work, skills, and ways to collaborate."
+        />
+        <meta name="author" content="Aagam Shah" />
+        <meta
+            name="keywords"
+            content="Aagam Shah, software developer, AI engineer, machine learning, computer vision, robotics, RoboCup SSL, Python, web developer, Sydney"
+        />
+        <link rel="canonical" href="https://aagamsh.netlify.app/" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://aagamsh.netlify.app/" />
+        <meta
+            property="og:title"
+            content="Aagam Shah | Software Developer & AI/ML Engineer"
+        />
+        <meta
+            property="og:description"
+            content="Sydney-based software developer and AI/ML engineer building autonomous robotics, computer vision, and full-stack web projects."
+        />
+        <meta
+            property="og:image"
+            content="https://aagamsh.netlify.app/images/Aagam%20Shah.jpeg"
+        />
+        <meta property="og:image:alt" content="Aagam Shah" />
+        <meta property="og:site_name" content="Aagam Shah Portfolio" />
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:title"
+            content="Aagam Shah | Software Developer & AI/ML Engineer"
+        />
+        <meta
+            name="twitter:description"
+            content="Sydney-based software developer and AI/ML engineer building autonomous robotics, computer vision, and full-stack web projects."
+        />
+        <meta
+            name="twitter:image"
+            content="https://aagamsh.netlify.app/images/Aagam%20Shah.jpeg"
+        />
+
+        <!-- Structured data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Aagam Shah",
+                "url": "https://aagamsh.netlify.app/",
+                "image": "https://aagamsh.netlify.app/images/Aagam%20Shah.jpeg",
+                "jobTitle": "Software Developer & AI/ML Engineer",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Sydney",
+                    "addressCountry": "AU"
+                },
+                "alumniOf": "Western Sydney University",
+                "sameAs": [
+                    "https://github.com/AShah-01",
+                    "https://www.linkedin.com/in/aagam-s"
+                ],
+                "knowsAbout": [
+                    "Artificial Intelligence",
+                    "Machine Learning",
+                    "Computer Vision",
+                    "Robotics",
+                    "Web Development"
+                ]
+            }
+        </script>
+
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,13 +116,7 @@
                     <a href="#contact">Connect</a>
                 </div>
                 <div>
-                    <button
-                        class="desktop-nav-toggle"
-                        type="button"
-                        aria-expanded="true"
-                    >
-                        Hide Nav
-                    </button>
+                    <a class="nav-cta" href="#projects">View Projects</a>
                     <button
                         class="menu-button"
                         type="button"
@@ -95,7 +162,7 @@
                         </div>
                         <h1>
                             Software Developer &<br />
-                            <span> AI/ML Major</span>
+                            <span> AI/ML Engineer</span>
                         </h1>
                         <p>
                             Computer Science student at Western Sydney
@@ -144,7 +211,6 @@
                             <p>RoboCup SSL</p>
                             <p>TensorFlow</p>
                             <p>CAD Design</p>
-                            <p>PyTorch</p>
                         </article>
                         <article>
                             <h3><i data-lucide="wrench"></i> Tools</h3>
@@ -153,6 +219,8 @@
                             <p>GitHub</p>
                             <p>AWS</p>
                             <p>Docker</p>
+                            <p>Vercel</p>
+                            <p>Netlify</p>
                             <p>Microsoft Suite</p>
                             <p>Adobe Suite</p>
                         </article>
@@ -202,9 +270,7 @@
                             <div>
                                 <i data-lucide="calendar"></i>
                                 <span>2026 – Present</span>
-                                <span data-status="in-progress"
-                                    >In Progress</span
-                                >
+                                <span data-status="on-hold">On Hold</span>
                             </div>
                             <p>
                                 Foundation studies in programming, database
@@ -571,14 +637,6 @@
                             src="images/activities/robocup-ssl-1.jpg"
                             alt="RoboCup SSL autonomous soccer robots on the field"
                         />
-                        <img
-                            src="images/activities/robocup-ssl-2.jpg"
-                            alt="RoboCup SSL competition field with soccer robots"
-                        />
-                        <img
-                            src="images/activities/turtle-rabbit.jpg"
-                            alt="Turtle Rabbit 2025 RoboCup SSL team logo"
-                        />
                     </div>
                 </div>
             </section>
@@ -646,25 +704,29 @@
                         </article>
                         <article>
                             <div>
-                                <h3>Unique TicTacToe</h3>
-                                <span class="language-tag language-tag-cpp"
+                                <h3>Nanobox</h3>
+                                <span
+                                    class="language-tag language-tag-typescript"
                                     ><span></span
-                                    ><span class="Cpp-Code">C++</span></span
+                                    ><span class="TypeScript-Code"
+                                        >TypeScript</span
+                                    ></span
                                 >
                             </div>
                             <p>
-                                A strategic twist on TicTacToe with unique
-                                rules, clean UI, and replayable gameplay.
+                                A fully customisable desktop companion built for
+                                neurodivergent people, made with Tauri 2, React,
+                                and TypeScript.
                             </p>
                             <div>
                                 <div>
                                     <span><i data-lucide="star"></i>1</span>
                                     <span
-                                        ><i data-lucide="git-branch"></i>1</span
+                                        ><i data-lucide="git-branch"></i>0</span
                                     >
                                 </div>
                                 <a
-                                    href="https://github.com/AShah-01/Unique-TicTacToe"
+                                    href="https://github.com/AShah-01/Nanobox"
                                     target="_blank"
                                     rel="noreferrer"
                                     >View Repo <i data-lucide="arrow-right"></i
