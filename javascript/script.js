@@ -71,10 +71,6 @@ if (copyEmailBtn) {
     });
 }
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 const revealObserver = new IntersectionObserver(
     (entries) => {
         entries.forEach((entry) => {
