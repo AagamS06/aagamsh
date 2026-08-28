@@ -124,7 +124,7 @@ main > section:nth-child(even) {
 }
 
 .nav-cta {
-    display: none;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     border: 1px solid rgba(255, 255, 255, 0.25);
@@ -145,6 +145,12 @@ main > section:nth-child(even) {
     background: #eff6ff;
     transform: translateY(-1px);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+}
+
+@media (min-width: 768px) {
+    .nav-cta {
+        display: none;
+    }
 }
 
 .menu-button,
@@ -1006,10 +1012,13 @@ footer {
         padding-right: 1.5rem;
     }
 
+<<<<<<< Updated upstream
     .nav-cta {
         display: inline-flex !important;
     }
 
+=======
+>>>>>>> Stashed changes
     .menu-button {
         display: none;
     }
